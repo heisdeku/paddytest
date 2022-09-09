@@ -3,8 +3,6 @@
 import React, {useEffect, useState, useRef} from 'react';
 import {Animated, Text} from 'react-native';
 
-const noop = () => 0;
-
 const Toast = ({duration = 1000, height = 100, show = false, onHide, text}) => {
   const animatedValue = useRef(new Animated.Value(0));
   const [timeoutId, setTimeoutId] = useState(null);
