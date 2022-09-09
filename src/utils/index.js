@@ -23,3 +23,5 @@ export const resize = (size, type = 'width') => {
     return Math.round(PixelRatio.roundToNearestPixel(newSize)) - 2;
   }
 };
+
+export const roomTags = ['business', 'career', 'engineering', 'science'];

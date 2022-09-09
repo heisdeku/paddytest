@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {
   View,
   Text,
@@ -13,9 +13,11 @@ import {resize} from '../utils';
 import {Rule} from '../components/Rule';
 import {Header} from '../components/Header';
 import {styles} from '../styles';
+import {roomTags} from '../utils';
+import Toast from '../components/Toast';
 
 const RoomInformation = () => {
-  const roomTags = ['business', 'career', 'engineering', 'science'];
+  const [showToast, setShowToast] = useState(false);
   return (
     <View style={styles.container}>
       <ScrollView
@@ -88,10 +90,13 @@ const RoomInformation = () => {
         </View>
       </ScrollView>
       <View style={styles.fixedOverlay}>
-        <TouchableOpacity style={styles.joinRoomButton}>
+        <TouchableOpacity
+          style={styles.joinRoomButton}
+          onPress={() => setShowToast(true)}>
           <Text style={styles.joinRoomButtonText}>Join Room</Text>
         </TouchableOpacity>
       </View>
+      <Toast show={showToast} onHide={setShowToast} />
     </View>
   );
 };

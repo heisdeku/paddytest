@@ -1,5 +1,5 @@
 import React from 'react';
-import {SafeAreaView, ScrollView, StatusBar} from 'react-native';
+import {SafeAreaView, ScrollView} from 'react-native';
 import RoomInformation from './src/screens/RoomInformation';
 
 const App = () => {
