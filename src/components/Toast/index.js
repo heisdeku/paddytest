@@ -8,14 +8,22 @@ const Toast = ({duration = 1000, height = 100, show = false, onHide, text}) => {
   const [timeoutId, setTimeoutId] = useState(null);
 
   const showToast = () => {
-    Animated.timing(animatedValue.current, {toValue: 1, duration: 350}).start();
+    Animated.timing(animatedValue.current, {
+      toValue: 1,
+      duration: 350,
+      useNativeDriver: true,
+    }).start();
     const id = setTimeout(() => hideToast?.(), duration + 350);
     setTimeoutId(id);
   };
 
   const hideToast = () => {
     clearTimeout(timeoutId);
-    Animated.timing(animatedValue.current, {toValue: 0, duration: 350}).start();
+    Animated.timing(animatedValue.current, {
+      toValue: 0,
+      duration: 350,
+      useNativeDriver: true,
+    }).start();
     setTimeout(() => onHide?.(false), 350);
   };
 

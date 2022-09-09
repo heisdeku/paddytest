@@ -12,12 +12,12 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		657D93B0EDC54A9DA66378EB /* NormLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = C2DC576D76EF4367A44BA804 /* NormLight.otf */; };
 		7699B88040F8A987B510C191 /* libPods-paddytest-paddytestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-paddytest-paddytestTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		DBE11901230C46F196FD7A05 /* NormBook.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7510233B7240B8A6A39CF1 /* NormBook.otf */; };
 		C22ED49750C5408BA90C66C2 /* NormDemi.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E1ED8CBB7C541EBB27FE835 /* NormDemi.otf */; };
+		DBE11901230C46F196FD7A05 /* NormBook.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7510233B7240B8A6A39CF1 /* NormBook.otf */; };
 		EC5D32AD571E41568203183E /* NormExBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C35000F925E845EA8166D62A /* NormExBold.otf */; };
-		657D93B0EDC54A9DA66378EB /* NormLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = C2DC576D76EF4367A44BA804 /* NormLight.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,17 +41,17 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = paddytest/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = paddytest/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-paddytest-paddytestTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-paddytest-paddytestTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E1ED8CBB7C541EBB27FE835 /* NormDemi.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = NormDemi.otf; path = ../assets/fonts/NormDemi.otf; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-paddytest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paddytest.debug.xcconfig"; path = "Target Support Files/Pods-paddytest/Pods-paddytest.debug.xcconfig"; sourceTree = "<group>"; };
+		3C7510233B7240B8A6A39CF1 /* NormBook.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = NormBook.otf; path = ../assets/fonts/NormBook.otf; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-paddytest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paddytest.release.xcconfig"; path = "Target Support Files/Pods-paddytest/Pods-paddytest.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-paddytest-paddytestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paddytest-paddytestTests.debug.xcconfig"; path = "Target Support Files/Pods-paddytest-paddytestTests/Pods-paddytest-paddytestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-paddytest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-paddytest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = paddytest/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-paddytest-paddytestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paddytest-paddytestTests.release.xcconfig"; path = "Target Support Files/Pods-paddytest-paddytestTests/Pods-paddytest-paddytestTests.release.xcconfig"; sourceTree = "<group>"; };
+		C2DC576D76EF4367A44BA804 /* NormLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = NormLight.otf; path = ../assets/fonts/NormLight.otf; sourceTree = "<group>"; };
+		C35000F925E845EA8166D62A /* NormExBold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = NormExBold.otf; path = ../assets/fonts/NormExBold.otf; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		3C7510233B7240B8A6A39CF1 /* NormBook.otf */ = {isa = PBXFileReference; name = "NormBook.otf"; path = "../assets/fonts/NormBook.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2E1ED8CBB7C541EBB27FE835 /* NormDemi.otf */ = {isa = PBXFileReference; name = "NormDemi.otf"; path = "../assets/fonts/NormDemi.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C35000F925E845EA8166D62A /* NormExBold.otf */ = {isa = PBXFileReference; name = "NormExBold.otf"; path = "../assets/fonts/NormExBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C2DC576D76EF4367A44BA804 /* NormLight.otf */ = {isa = PBXFileReference; name = "NormLight.otf"; path = "../assets/fonts/NormLight.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +89,18 @@
 				00E356F11AD99517003FC87E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0CEA3779573A4D12865689A2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3C7510233B7240B8A6A39CF1 /* NormBook.otf */,
+				2E1ED8CBB7C541EBB27FE835 /* NormDemi.otf */,
+				C35000F925E845EA8166D62A /* NormExBold.otf */,
+				C2DC576D76EF4367A44BA804 /* NormLight.otf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		13B07FAE1A68108700A75B9A /* paddytest */ = {
@@ -156,18 +168,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		0CEA3779573A4D12865689A2 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				3C7510233B7240B8A6A39CF1 /* NormBook.otf */,
-				2E1ED8CBB7C541EBB27FE835 /* NormDemi.otf */,
-				C35000F925E845EA8166D62A /* NormExBold.otf */,
-				C2DC576D76EF4367A44BA804 /* NormLight.otf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
