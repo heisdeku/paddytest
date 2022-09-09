@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/NormBook.otf",
+      "sha1": "b1ef2592be1bc1d728d3d6f81a0162f6376348f4"
+    },
+    {
+      "path": "assets/fonts/NormDemi.otf",
+      "sha1": "01cf44cd162f2b2b89564f510d8865be2ed753f7"
+    },
+    {
+      "path": "assets/fonts/NormExBold.otf",
+      "sha1": "a45e76ab7a3255b30f528ff71f9a2800b1ab180e"
+    },
+    {
+      "path": "assets/fonts/NormLight.otf",
+      "sha1": "bbf5cb640f00e00aa31c501fc88e3ba066660d0c"
+    }
+  ]
+}

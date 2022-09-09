@@ -14,6 +14,10 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-paddytest-paddytestTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-paddytest-paddytestTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		DBE11901230C46F196FD7A05 /* NormBook.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7510233B7240B8A6A39CF1 /* NormBook.otf */; };
+		C22ED49750C5408BA90C66C2 /* NormDemi.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2E1ED8CBB7C541EBB27FE835 /* NormDemi.otf */; };
+		EC5D32AD571E41568203183E /* NormExBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C35000F925E845EA8166D62A /* NormExBold.otf */; };
+		657D93B0EDC54A9DA66378EB /* NormLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = C2DC576D76EF4367A44BA804 /* NormLight.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = paddytest/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-paddytest-paddytestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-paddytest-paddytestTests.release.xcconfig"; path = "Target Support Files/Pods-paddytest-paddytestTests/Pods-paddytest-paddytestTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		3C7510233B7240B8A6A39CF1 /* NormBook.otf */ = {isa = PBXFileReference; name = "NormBook.otf"; path = "../assets/fonts/NormBook.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2E1ED8CBB7C541EBB27FE835 /* NormDemi.otf */ = {isa = PBXFileReference; name = "NormDemi.otf"; path = "../assets/fonts/NormDemi.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C35000F925E845EA8166D62A /* NormExBold.otf */ = {isa = PBXFileReference; name = "NormExBold.otf"; path = "../assets/fonts/NormExBold.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C2DC576D76EF4367A44BA804 /* NormLight.otf */ = {isa = PBXFileReference; name = "NormLight.otf"; path = "../assets/fonts/NormLight.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				0CEA3779573A4D12865689A2 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +156,18 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		0CEA3779573A4D12865689A2 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				3C7510233B7240B8A6A39CF1 /* NormBook.otf */,
+				2E1ED8CBB7C541EBB27FE835 /* NormDemi.otf */,
+				C35000F925E845EA8166D62A /* NormExBold.otf */,
+				C2DC576D76EF4367A44BA804 /* NormLight.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -244,6 +265,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				DBE11901230C46F196FD7A05 /* NormBook.otf in Resources */,
+				C22ED49750C5408BA90C66C2 /* NormDemi.otf in Resources */,
+				EC5D32AD571E41568203183E /* NormExBold.otf in Resources */,
+				657D93B0EDC54A9DA66378EB /* NormLight.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

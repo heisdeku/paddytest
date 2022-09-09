@@ -1,14 +1,12 @@
 import React from 'react';
-import {SafeAreaView, ScrollView, StatusBar, Text, View} from 'react-native';
+import {SafeAreaView, ScrollView, StatusBar} from 'react-native';
+import RoomInformation from './src/screens/RoomInformation';
 
 const App = () => {
   return (
     <SafeAreaView>
-      <StatusBar barStyle={'light-content'} />
       <ScrollView contentInsetAdjustmentBehavior="automatic">
-        <View>
-          <Text>Basic React Native by Feranmi!</Text>
-        </View>
+        <RoomInformation />
       </ScrollView>
     </SafeAreaView>
   );
